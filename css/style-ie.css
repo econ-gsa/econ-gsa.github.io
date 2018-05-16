@@ -1,0 +1,37 @@
+    #grid-a    { display: -ms-grid; 
+                -ms-grid-columns: auto minmax(min-content, 1fr);
+                -ms-grid-rows: auto minmax(min-content, 1fr)
+               }
+
+    #item-a    { -ms-grid-column: 1; -ms-grid-row: 1 }
+    #item-b    { -ms-grid-column: 1; -ms-grid-row: 2 }
+    #nav  { -ms-grid-column: 2; -ms-grid-row: 2; -ms-grid-column-align: 
+				right }
+				
+body {
+	font-family: "Calibri", serif;
+	font-size: 150%;
+}
+h1 {
+	height: 10px;
+}
+h2 {
+	height: 20px;
+}
+a {
+	text-decoration: none; 
+}
+#main {
+	width: 1000px;
+	margin: auto auto;
+}
+
+#nav ul{
+	position: relative;
+	text-align: right;
+}
+#nav ul li {
+	display: inline-block;
+	padding: 8px 15px 0 15px;
+	text-align: right;
+}
